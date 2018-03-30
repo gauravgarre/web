@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+.fancy-link {
+   color: #0000EE;
+   font-weight: normal;
+   text-decoration: underline;
+   transition: all 0.3s linear;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+}
+
+.fancy-link:hover {
+	color: #0000EE;
+	padding-left: 10px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.fancy-link:visited { color: #551A8B; }
