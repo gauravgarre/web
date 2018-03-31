@@ -47,6 +47,16 @@ input:focus, textarea:focus {
 	-webkit-border-radius: 3px;		
 }
 
+.clear input {
+	width: 100px; 
+	height: 40px;
+	background-color: #EF1F1F; 
+	color: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;		
+}
+
 .formfield * {
 	font-family: arial;
 	vertical-align: middle;
