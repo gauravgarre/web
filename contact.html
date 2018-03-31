@@ -72,9 +72,37 @@ function MM_swapImage() { //v3.0
 	<tr>
 		<td rowspan="2" style="color: #FFFDFD">
 			<img src="images/gaurav-contact_04_18.png" width="42" height="925" alt=""></td>
-		<td height="885" colspan="8" valign="top" background="images/gaurav-contact_04_19.png" style="color: #FFFDFD; font-weight: bold; font-family: Arial;">
-		<iframe src='contactform.php' frameborder='0' width='100%' height='600' allowtransparency='true'></iframe>
-
+		<td height="885" colspan="8" valign="top" background="images/gaurav-contact_04_19.png" style="color: #FFFDFD; font-weight: normal; font-family: Arial;">
+		<h1>CONTACT FORM</h1>
+		
+		<form class="form" name="contactform" method="post" action="https://formspree.io/gauravgarre@gmail.com">
+		
+		<p class="formfield">
+	    	<label for="name">Name:</label>
+		    <input class="typeboxcenter" type="text" name="name" id="name" placeholder="John Doe" />
+			
+			
+			
+		</p>
+		
+		<p class="formfield">
+			<label for="email">E-mail:</label>
+			<input class="typeboxcenter" type="text" name="email" id="email" placeholder="mail@example.com" />
+			
+		</p>
+				
+	
+		<p class="formfield">
+			
+			<label for="text">Memo:</label>
+			<textarea class="typeboxcenter" name="text" placeholder="Write something..." /></textarea>
+			
+		</p>
+		
+		<p class="submit">
+			<input type="submit" value="Send" />
+		</p>
+	</form>
 
 			
 		
