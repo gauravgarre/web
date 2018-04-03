@@ -61,3 +61,7 @@ input:focus, textarea:focus {
 	font-family: arial;
 	vertical-align: middle;
 }
+
+.center {
+	margin: 0 auto;
+}

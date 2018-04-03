@@ -16,3 +16,11 @@
 	text-decoration: underline;
 }
 .fancy-link:visited { color: #551A8B; }
+
+.align {
+	float: right;
+}
+
+.center {
+	margin: 0 auto;
+}

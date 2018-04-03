@@ -1,8 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-img.map, map area{
-    outline: none;
-}
 
 .center {
 	margin: 0 auto;
